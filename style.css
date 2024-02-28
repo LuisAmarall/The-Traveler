@@ -1,0 +1,55 @@
+bory
+{
+    font-family: cambria, lato, sans-serif;
+    color: #818181;
+}
+header h1
+{
+    font-size: 63px;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+h2
+{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+bory h3
+{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+}
+header h3
+{
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+a:hover
+{
+    color:gold;
+}
+bory p
+{
+    text-align: center;
+    text-transform: none;
+    text-decoration-line: none;
+    padding: 20px;
+}
+.carousel-item img
+{
+    height: 650px;
+}
+.carousel-caption h5
+{
+    font-size: 80px;
+    color: gold;
+    text-shadow: 4px, 4px, 4px black;
+}

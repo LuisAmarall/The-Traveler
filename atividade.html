@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <section>
+        <h1>Cadastro do usuario</h1>
+        <form action=""  method="get">
+            <fieldset>
+                <legend>Dados do contratante</legend>
+                <label>Nome</label><br>
+                <input type="text" required name="nome"><br>
+                <label>E-mail</label><br>
+                <input type="email" required name="email"><br>
+            </fieldset>
+            <fieldset>
+                <legend>Serviços</legend>
+                <label>
+                    <br><input type="checkbox" name="passagens" value="passagens">Compra de Passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="reserva" value="reserva">Reserva de Hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veiculos" value="veiculos">Aluguel de Veículos
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Forma de pagamento</legend>
+                <label>
+                    <br><input type="radio" name="formaDePagamento" value="boleto">Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaDePagamento" value="pix">Pix
+                </label>
+                <label>
+                    <br><input type="radio" name="formaDePagamento" value="credito">Crédito
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Daata do Pagamento</legend>
+                <select name="datasParaPagar">
+                    <option value="aVista" selected>À Vista</option>
+                    <option value="5vezes">Cinco Vezes Sem Juros</option>
+                    <option value="10vezes">  Dez Vezes Com Juros</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>O que você está buscando?</legend>
+                <textarea rows="5" name="comentario"></textarea><br>
+            </fieldset>
+            <br>
+            <input type="submit" name="salvar" value="Salvar">
+        </form>
+    </section>
+</body>
+</html>
